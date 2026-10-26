@@ -1,0 +1,7 @@
+Selected model: Forest leaf=1 | expanded
+Training properties: 2,344; held-out properties: 586.
+Test MAE: $19,311; RMSE: $32,792; R²: 0.866.
+Baseline test MAE: $63,838; MAE reduction: 69.7%.
+Median absolute error: $12,437.
+The exported pipeline is trained on training rows only and has passed fresh-process loading verification.
+These results apply to the historical Ames holdout, not present-day property values or other markets.

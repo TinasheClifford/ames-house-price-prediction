@@ -1,0 +1,9 @@
+feature,min,max,median
+Gr Liv Area,334.0,5642.0,1436.5
+Bedroom AbvGr,0.0,8.0,3.0
+Full Bath,0.0,4.0,2.0
+Half Bath,0.0,2.0,0.0
+AgeAtSale,0.0,136.0,36.0
+Garage Cars,0.0,4.0,2.0
+Overall Qual,1.0,10.0,6.0
+Overall Cond,1.0,9.0,5.0

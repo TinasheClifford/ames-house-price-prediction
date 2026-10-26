@@ -1,0 +1,6 @@
+check,training_records_flagged
+nonpositive_living_area,0
+negative_bedrooms,0
+negative_garage_capacity,0
+built_after_sale_year,1
+living_area_over_4000_sqft_review,4

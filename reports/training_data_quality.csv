@@ -1,0 +1,83 @@
+column,dtype,missing_count,missing_percent,literal_NA_count,unique_non_null
+Order,int64,0,0.0,0,2344
+PID,int64,0,0.0,0,2344
+MS SubClass,int64,0,0.0,0,16
+MS Zoning,object,0,0.0,0,7
+Lot Frontage,float64,393,16.766211604095563,0,120
+Lot Area,int64,0,0.0,0,1634
+Street,object,0,0.0,0,2
+Alley,object,0,0.0,2182,3
+Lot Shape,object,0,0.0,0,4
+Land Contour,object,0,0.0,0,4
+Utilities,object,0,0.0,0,3
+Lot Config,object,0,0.0,0,5
+Land Slope,object,0,0.0,0,3
+Neighborhood,object,0,0.0,0,28
+Condition 1,object,0,0.0,0,9
+Condition 2,object,0,0.0,0,8
+Bldg Type,object,0,0.0,0,5
+House Style,object,0,0.0,0,8
+Overall Qual,int64,0,0.0,0,10
+Overall Cond,int64,0,0.0,0,9
+Year Built,int64,0,0.0,0,118
+Year Remod/Add,int64,0,0.0,0,61
+Roof Style,object,0,0.0,0,6
+Roof Matl,object,0,0.0,0,8
+Exterior 1st,object,0,0.0,0,16
+Exterior 2nd,object,0,0.0,0,16
+Mas Vnr Type,object,19,0.810580204778157,0,5
+Mas Vnr Area,float64,19,0.810580204778157,0,391
+Exter Qual,object,0,0.0,0,4
+Exter Cond,object,0,0.0,0,5
+Foundation,object,0,0.0,0,6
+Bsmt Qual,object,1,0.042662116040955635,60,6
+Bsmt Cond,object,1,0.042662116040955635,60,6
+Bsmt Exposure,object,3,0.12798634812286688,60,5
+BsmtFin Type 1,object,1,0.042662116040955635,60,7
+BsmtFin SF 1,float64,1,0.042662116040955635,0,882
+BsmtFin Type 2,object,2,0.08532423208191127,60,7
+BsmtFin SF 2,float64,1,0.042662116040955635,0,231
+Bsmt Unf SF,float64,1,0.042662116040955635,0,1014
+Total Bsmt SF,float64,1,0.042662116040955635,0,936
+Heating,object,0,0.0,0,6
+Heating QC,object,0,0.0,0,5
+Central Air,object,0,0.0,0,2
+Electrical,object,0,0.0,0,5
+1st Flr SF,int64,0,0.0,0,980
+2nd Flr SF,int64,0,0.0,0,550
+Low Qual Fin SF,int64,0,0.0,0,29
+Gr Liv Area,int64,0,0.0,0,1143
+Bsmt Full Bath,float64,1,0.042662116040955635,0,4
+Bsmt Half Bath,float64,1,0.042662116040955635,0,3
+Full Bath,int64,0,0.0,0,5
+Half Bath,int64,0,0.0,0,3
+Bedroom AbvGr,int64,0,0.0,0,8
+Kitchen AbvGr,int64,0,0.0,0,4
+Kitchen Qual,object,0,0.0,0,4
+TotRms AbvGrd,int64,0,0.0,0,14
+Functional,object,0,0.0,0,8
+Fireplaces,int64,0,0.0,0,5
+Fireplace Qu,object,0,0.0,1144,6
+Garage Type,object,0,0.0,120,7
+Garage Yr Blt,float64,122,5.2047781569965865,0,102
+Garage Finish,object,2,0.08532423208191127,120,4
+Garage Cars,float64,1,0.042662116040955635,0,5
+Garage Area,float64,1,0.042662116040955635,0,549
+Garage Qual,object,1,0.042662116040955635,121,6
+Garage Cond,object,1,0.042662116040955635,121,6
+Paved Drive,object,0,0.0,0,3
+Wood Deck SF,int64,0,0.0,0,350
+Open Porch SF,int64,0,0.0,0,232
+Enclosed Porch,int64,0,0.0,0,171
+3Ssn Porch,int64,0,0.0,0,25
+Screen Porch,int64,0,0.0,0,98
+Pool Area,int64,0,0.0,0,13
+Pool QC,object,0,0.0,2332,5
+Fence,object,0,0.0,1874,5
+Misc Feature,object,0,0.0,2250,5
+Misc Val,int64,0,0.0,0,35
+Mo Sold,int64,0,0.0,0,12
+Yr Sold,int64,0,0.0,0,5
+Sale Type,object,0,0.0,0,10
+Sale Condition,object,0,0.0,0,6
+SalePrice,int64,0,0.0,0,887

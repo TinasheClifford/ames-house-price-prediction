@@ -1,0 +1,10 @@
+source_columns,meaning,unit
+Gr Liv Area,Above-ground living area,square feet
+Bedroom AbvGr,Above-ground bedrooms,count
+Full Bath,Above-ground full bathrooms,count
+Half Bath,Above-ground half bathrooms,count
+Neighborhood,Location within Ames,category
+Year Built + Yr Sold,Age at sale = Yr Sold - Year Built,years
+Garage Cars,Garage capacity,cars
+Overall Qual,Overall material/finish quality,ordinal rating
+Overall Cond,Overall condition,ordinal rating

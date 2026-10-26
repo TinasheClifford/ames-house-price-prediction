@@ -1,0 +1,103 @@
+{
+  "author": "Tinashe Clifford Makandise",
+  "created_utc": "2026-10-21T01:23:41.045890+00:00",
+  "candidate": "Forest leaf=1 | expanded",
+  "configuration": {
+    "family": "RandomForestRegressor",
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "expanded": true,
+    "scale_numeric": false,
+    "random_state": 42
+  },
+  "target": "SalePrice",
+  "currency": "USD",
+  "scope": "Ames, Iowa; historical 2006\u20132010 sale prices",
+  "train_rows": 2344,
+  "test_rows": 586,
+  "training_includes_test": false,
+  "required_raw_inputs": [
+    "Gr Liv Area",
+    "Bedroom AbvGr",
+    "Full Bath",
+    "Half Bath",
+    "Year Built",
+    "Yr Sold",
+    "Garage Cars",
+    "Neighborhood",
+    "Overall Qual",
+    "Overall Cond"
+  ],
+  "age_definition": "Yr Sold minus Year Built; negative ages become missing",
+  "supported_neighborhoods": [
+    "Blmngtn",
+    "Blueste",
+    "BrDale",
+    "BrkSide",
+    "ClearCr",
+    "CollgCr",
+    "Crawfor",
+    "Edwards",
+    "Gilbert",
+    "Greens",
+    "GrnHill",
+    "IDOTRR",
+    "Landmrk",
+    "MeadowV",
+    "Mitchel",
+    "NAmes",
+    "NPkVill",
+    "NWAmes",
+    "NoRidge",
+    "NridgHt",
+    "OldTown",
+    "SWISU",
+    "Sawyer",
+    "SawyerW",
+    "Somerst",
+    "StoneBr",
+    "Timber",
+    "Veenker"
+  ],
+  "sale_year_options": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "test_metrics": {
+    "mae": 19311.06639700146,
+    "rmse": 32791.893553808215,
+    "r2": 0.8658806542709947,
+    "median_absolute_error": 12437.259999999995,
+    "mean_signed_error": -891.7023874939056
+  },
+  "baseline_test_metrics": {
+    "mae": 63838.10068259386,
+    "rmse": 94322.62486574918,
+    "r2": -0.10966066411249265,
+    "median_absolute_error": 40300.0,
+    "mean_signed_error": -29651.469283276452
+  },
+  "cv_mae": 19052.91463637068,
+  "holdout_mae_improvement_percent": 69.74993586820976,
+  "unknown_test_neighborhood_count": 0,
+  "model_sha256": "81afdf0f55cc3bfa96ef40bdb930ad3e8429f957b8e1198d88733c66b7d4fb34",
+  "train_sha256": "1d4c80c261a3c3c96783d7357c426536d825118911bf92f7404f541d1ad6ff7a",
+  "test_sha256": "de081d426db6217c354f65019ec7c5a698df570093d4bc17f35f9d719979a6db",
+  "source_sha256": "6cfe6cb525ba437de428653a1040e2aed7d696640bf75203786a6d7a0e67cfcc",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0",
+    "joblib": "1.5.3"
+  },
+  "limitations": [
+    "Historical educational demonstration, not current valuation",
+    "Not validated outside Ames",
+    "MAE is not a prediction interval",
+    "Sparse and unusual properties may have larger errors"
+  ]
+}

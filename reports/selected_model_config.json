@@ -1,0 +1,32 @@
+{
+  "author": "Tinashe Clifford Makandise",
+  "candidate": "Forest leaf=1 | expanded",
+  "configuration": {
+    "family": "RandomForestRegressor",
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "expanded": true,
+    "scale_numeric": false,
+    "random_state": 42
+  },
+  "selection_metric": "mean five-fold validation MAE in USD",
+  "cv_mae": 19052.91463637068,
+  "cv_rmse": 30260.556964100757,
+  "cv_r2": 0.8441970812352387,
+  "baseline_cv_mae": 54120.28600769049,
+  "improvement_vs_baseline_percent": 64.7952439984089,
+  "cv": {
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "test_data_used": false,
+  "artifact_state": "unfitted template; fit on training data before prediction",
+  "train_sha256": "1d4c80c261a3c3c96783d7357c426536d825118911bf92f7404f541d1ad6ff7a",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  }
+}

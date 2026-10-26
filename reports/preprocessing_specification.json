@@ -1,0 +1,42 @@
+{
+  "author": "Tinashe Clifford Makandise",
+  "core_numeric": [
+    "Gr Liv Area",
+    "Bedroom AbvGr",
+    "Full Bath",
+    "Half Bath",
+    "AgeAtSale",
+    "Garage Cars"
+  ],
+  "expanded_numeric": [
+    "Gr Liv Area",
+    "Bedroom AbvGr",
+    "Full Bath",
+    "Half Bath",
+    "AgeAtSale",
+    "Garage Cars",
+    "Overall Qual",
+    "Overall Cond"
+  ],
+  "categorical": [
+    "Neighborhood"
+  ],
+  "raw_required_core": [
+    "Gr Liv Area",
+    "Bedroom AbvGr",
+    "Full Bath",
+    "Half Bath",
+    "Year Built",
+    "Yr Sold",
+    "Garage Cars",
+    "Neighborhood"
+  ],
+  "age_definition": "Yr Sold - Year Built; negative derived ages become missing",
+  "numeric_imputation": "median fitted within each training fold",
+  "categorical_imputation": "Unknown constant",
+  "unknown_category": "ignore during one-hot encoding; flag unsupported locations in app",
+  "row_exclusions": "none",
+  "test_data_used": false,
+  "target": "SalePrice",
+  "currency": "historical USD"
+}

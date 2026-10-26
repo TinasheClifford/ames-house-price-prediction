@@ -1,0 +1,10 @@
+feature,meaning,unit,feature_set
+Gr Liv Area,Above-ground area,sq ft,core
+Bedroom AbvGr,Above-ground bedrooms,count,core
+Full Bath,Above-ground full bathrooms,count,core
+Half Bath,Above-ground half bathrooms,count,core
+AgeAtSale,Yr Sold minus Year Built,years,core
+Garage Cars,Garage capacity,cars,core
+Neighborhood,Location within Ames,category,core
+Overall Qual,Material/finish quality,1–10,expanded
+Overall Cond,Overall condition,1–10,expanded
