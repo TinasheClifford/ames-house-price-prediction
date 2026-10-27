@@ -5,7 +5,9 @@ Python · pandas · scikit-learn · Streamlit
 
 An end-to-end regression project estimating historical residential sale prices in Ames, Iowa. Five explained notebooks cover data inspection, exploration, preprocessing, model selection and final evaluation. A Streamlit app turns the evaluated model into an interactive estimator.
 
-**Status:** runs locally; public deployment pending. Prices represent **2006–2010 Ames transactions in historical USD**.
+**Status:** Live on Streamlit. Prices represent **2006–2010 Ames transactions in historical USD**.
+
+**[Open the live house price prediction app](https://ames-house-price-prediction-h88bwcrrr4jhikaesa4lr4.streamlit.app/)**
 
 ## Results
 
