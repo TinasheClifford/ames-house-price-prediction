@@ -124,3 +124,10 @@ De Cock, D. (2011). Ames, Iowa: Alternative to the Boston housing data as an end
 [Original study](https://jse.amstat.org/v19n3/decock.pdf) · [Original text data](https://jse.amstat.org/v19n3/decock/AmesHousing.txt) · [Data dictionary](https://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
 
 Raw transaction data is not distributed in this repository. Source rights remain with their respective owners. An open-source licence has not been selected for this project; public availability alone does not grant unrestricted reuse.
+## Application Screenshots
+
+![Application screenshot 1](<Screenshot 2026-10-27 150616.png>)
+
+![Application screenshot 2](<Screenshot 2026-10-27 150637.png>)
+
+![Application screenshot 3](<Screenshot 2026-10-27 150646.png>)
